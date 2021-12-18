@@ -24,20 +24,20 @@ export default class Command extends BaseCommand {
         let bnh = n[Math.floor(Math.random() * n.length)]
 if (!(await this.client.getGroupData(M.from)).nsfw)
 			return void M.reply(
-				`Don't be a pervert, Baka! This is not an NSFW group.`
+				`Don't be a pervert, bra! This is not an NSFW group.`
 			);
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}nsfw
- Shows the nsfw info
+Greetings ${M.sender.username}
+    You requested ${this.client.config.prefix}nsfw command
+ ```👾Available commands👾```
    
-        「 Nsfw 🔞 」
- -「 ${this.client.config.prefix}bj 」
- -「 ${this.client.config.prefix}darkjoke 」
- -「 ${this.client.config.prefix}lesbian 」
- -「 ${this.client.config.prefix}nneko 」
- -「 ${this.client.config.prefix}nwaifu 」
- -「 ${this.client.config.prefix}trap 」
+        *━━━━❰ Nsfw🔞 ❱━━━━*
+ *- ${this.client.config.prefix}bj*
+ *- ${this.client.config.prefix}darkjoke*
+ *- ${this.client.config.prefix}lesbian*
+ *- ${this.client.config.prefix}nneko*
+ *- ${this.client.config.prefix}nwaifu*
+ *- ${this.client.config.prefix}trap*
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
