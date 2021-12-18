@@ -23,25 +23,25 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}moderation
- Shows the moderation info
+Greetings ${M.sender.username}
+    You requested ${this.client.config.prefix}moderation command
+ ```👾Available Commands👾```
    
-        「 moderation 」
- -「 ${this.client.config.prefix}activate : cmd , invitelink , nsfw , mod , events , safe 」
- -「 ${this.client.config.prefix}deactivate 」
- -「 ${this.client.config.prefix}close 」
- -「 ${this.client.config.prefix}demote 」
- -「 ${this.client.config.prefix}ping 」
- -「 ${this.client.config.prefix}gset 」
- -「 ${this.client.config.prefix}open 」
- -「 ${this.client.config.prefix}close 」
- -「 ${this.client.config.prefix}promote 」
- -「 ${this.client.config.prefix}purge 」
- -「 ${this.client.config.prefix}revoke 」
--「${this.client.config.prefix}add 」
- - 「${this.client.config.prefix}gadd desc 」
-- 「${this.client.config.prefix}gadd desc 」
+        *━━━━❰ Moderation ❱━━━━*
+ *- ${this.client.config.prefix}activate : cmd , invitelink , nsfw , mod , events , safe*
+ *- ${this.client.config.prefix}deactivate*
+ *- ${this.client.config.prefix}close*
+ *- ${this.client.config.prefix}demote*
+ *- ${this.client.config.prefix}ping*
+ *- ${this.client.config.prefix}gset*
+ *- ${this.client.config.prefix}open*
+ *- ${this.client.config.prefix}close*
+ *- ${this.client.config.prefix}promote*
+ *- ${this.client.config.prefix}purge*
+ *- ${this.client.config.prefix}revoke*
+ *- ${this.client.config.prefix}add*
+ *- ${this.client.config.prefix}gadd desc*
+ *- ${this.client.config.prefix}gadd desc*
 
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
