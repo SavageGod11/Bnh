@@ -23,19 +23,19 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}general
- Shows the general info
+Greetings ${M.sender.username}
+    You requested ${this.client.config.prefix}general commands
+ ```👾Available Commands👾```
    
-        「 General 」
- -「 ${this.client.config.prefix}admin 」
- -「 ${this.client.config.prefix}delete 」
- -「 ${this.client.config.prefix}help 」
- -「 ${this.client.config.prefix}hi 」
- -「 ${this.client.config.prefix}invitelink 」
- -「 ${this.client.config.prefix}mod 」
- -「 ${this.client.config.prefix}profile 」
- -「 ${this.client.config.prefix}xp 」
+        *━━━━❰ General ❱━━━━*
+ *- ${this.client.config.prefix}admin*
+ *- ${this.client.config.prefix}delete*
+ *- ${this.client.config.prefix}help*
+ *- ${this.client.config.prefix}hi*
+ *- ${this.client.config.prefix}invitelink*
+ *- ${this.client.config.prefix}mod*
+ *- ${this.client.config.prefix}profile*
+ *- ${this.client.config.prefix}xp*
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
