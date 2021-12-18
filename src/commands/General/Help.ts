@@ -23,29 +23,34 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa im a anime botto , enjoy your day!! 
+Greetings im a anime bot created by Savage God! 
  My usable commands are listed below
    
         *━━━━❰ Sections ❱━━━━*
-1 -「 Bots 」
-2 -「 Config 」
-3-「 Dev 」
-4 -「 Fun 」
-5 -「 Educative 」
-6-「 General 」
-7 -「 Media 」
-8-「 Moderation 」
-9-「 Weeb 」
-10-「 Nsfw (18+) 」
- 
- ─────────────────────────
-│- *ᴜꜱᴇʀ: ${M.sender.username}*
-│- *ɴᴀᴍᴇ: Cole*
-│- *ᴘʀᴇꜰɪx: ${this.client.config.prefix}*
-│- *ᴏᴡɴᴇʀ: Savage God*
 
-╰──────────────────────────
- *Note: Use ${this.client.config.prefix}<Section_name> or <Section_number> to view the section info. E.g ${this.client.config.prefix}bot/1*
+```1 - Bots 🤖
+2 - Config ⚙️
+3- Dev 🌟
+4 - Fun 💘
+5 - Educative 👨‍🏫
+6- General 🍀
+7 - Media 🖤
+8- Moderation 🧛‍♂️
+9- Weeb 💀
+10- Nsfw (18+)🍑 ```
+ 
+         *━━━━❰ Details ❱━━━━*
+
+*│- User: ${M.sender.username}*
+*│- Name: Cole*
+*│- Prefix: ${this.client.config.prefix}*
+*│- Owner: Savage God*
+
+          *━━━━❰ Bio ❱━━━━*
+              
+```My name is Cole and I am I anime bot that was
+created by Savage God. Don't abuse me or there will be consequences.
+Have a great day```
      
      
 `
