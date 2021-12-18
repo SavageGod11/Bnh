@@ -36,7 +36,6 @@
         "GOOGLE_API_KEY": {
             "description": "Google API key for Google searches for MODS (Not Required)",
             "required": false
-
         },
         "CHAT_BOT_URL": {
             "description": "BrainShop API Brain url",
