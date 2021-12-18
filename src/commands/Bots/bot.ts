@@ -25,13 +25,13 @@ export default class Command extends BaseCommand {
         const mn=`
 Greetings ${M.sender.username}
     You requested ${this.client.config.prefix}Bot command
-     
+    ```👾Available Commands👾```
      
         *━━━━❰ Bot ❱━━━━*
- -「 ${this.client.config.prefix}Entropy 」
- -「 ${this.client.config.prefix}guide 」
- -「 ${this.client.config.prefix}info 」
- -「 ${this.client.config.prefix}void 」
+ *- ${this.client.config.prefix}Entropy*
+ *- ${this.client.config.prefix}guide*
+ *- ${this.client.config.prefix}info*
+ *- ${this.client.config.prefix}void*
       Credits to my friend prajjwal 
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
