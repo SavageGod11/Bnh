@@ -23,11 +23,11 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}Bot
- Shows the bots info
-   
-        「 Bot 」
+Greetings ${M.sender.username}
+    You requested ${this.client.config.prefix}Bot command
+     
+     
+        *━━━━❰ Bot ❱━━━━*
  -「 ${this.client.config.prefix}Entropy 」
  -「 ${this.client.config.prefix}guide 」
  -「 ${this.client.config.prefix}info 」
