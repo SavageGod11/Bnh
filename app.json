@@ -37,9 +37,7 @@
             "description": "Google API key for Google searches for MODS (Not Required)",
             "required": false
         },
-        "LYRICS": {
-            "description": "LYRICS is for the lyrics of a song"
-            "required": false
+
         },
         "CHAT_BOT_URL": {
             "description": "BrainShop API Brain url",
