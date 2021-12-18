@@ -23,13 +23,13 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}Config
- Shows the config info
+Greetings ${M.sender.username}
+    You requested ${this.client.config.prefix}Config command
+ ```👾Available Commands👾```
    
-        「 config 」
- -「 ${this.client.config.prefix}enable 」
- -「 ${this.client.config.prefix}disable 」
+        *━━━━❰ Config ❱━━━━*
+ *- ${this.client.config.prefix}enable*
+ *- ${this.client.config.prefix}disable*
 
  *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
