@@ -29,7 +29,7 @@ if (!(await this.client.getGroupData(M.from)).nsfw)
         const mn=`
 Greetings ${M.sender.username}
     You requested ${this.client.config.prefix}nsfw command
- ```👾Available commands👾```
+ \`\`\`👾Available commands👾\`\`\`
    
         *━━━━❰ Nsfw🔞 ❱━━━━*
  *- ${this.client.config.prefix}bj*
