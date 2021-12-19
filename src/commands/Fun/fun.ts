@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
         const mn=`
 Greetings ${M.sender.username}
     You requested ${this.client.config.prefix}fun command
- ```👾Available Commands👾```
+ \`\`\`👾Available Commands👾\`\`\`
    
         *━━━━❰ Fun && Games ❱━━━━*
  *- ${this.client.config.prefix}Bnh*
