@@ -28,7 +28,7 @@ Greetings im a anime bot created by Savage God!
    
         *━━━━❰ Sections ❱━━━━*
 
-```1 - Bots 🤖
+\`\`\`1 - Bots 🤖
 2 - Config ⚙️
 3- Dev 🌟
 4 - Fun 💘
@@ -37,7 +37,7 @@ Greetings im a anime bot created by Savage God!
 7 - Media 🖤
 8- Moderation 🧛‍♂️
 9- Weeb 💀
-10- Nsfw (18+)🍑 ```
+10- Nsfw (18+)🍑 \`\`\`
  
          *━━━━❰ Details ❱━━━━*
 
@@ -48,9 +48,9 @@ Greetings im a anime bot created by Savage God!
 
           *━━━━❰ Bio ❱━━━━*
               
-```My name is Cole and I am I anime bot that was
+\`\`\`My name is Cole and I am I anime bot that was
 created by Savage God. Don't abuse me or there will be consequences.
-Have a great day```
+Have a great day\`\`\`
      
      
 `
