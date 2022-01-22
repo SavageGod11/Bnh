@@ -1,7 +1,7 @@
 /**
  * /*
  *   Code From Kaoi
- *   https://github.com/PrajjwalDatir/Kaoi/blob/da4159b02d3799fb09f27225fff272fa6b54b93e/src/commands/Media/steal.ts
+ *   https://github.com/SavageGod11/bnh/src/commands/Media/steal.ts
  *
  * @format
  */
