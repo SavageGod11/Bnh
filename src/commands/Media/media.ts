@@ -31,6 +31,7 @@ Greetings ${M.sender.username}
  *- ${this.client.config.prefix}Blur*
  *- ${this.client.config.prefix}google*
  *- ${this.client.config.prefix}play*
+ *- ${this.client.config.prefix}steal*
  *- ${this.client.config.prefix}retrieve*
  *- ${this.client.config.prefix}screenshot*
  *- ${this.client.config.prefix}advice*
