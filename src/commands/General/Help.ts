@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
 Greetings im a anime bot created by Savage God! 
  My usable commands are listed below
    
-        *━━━━❰ Sections ❱━━━━*
+*━━━━❰ Sections ❱━━━━*
 
 \`\`\`1 - Bots 🤖
 2 - Config ⚙️
@@ -39,14 +39,14 @@ Greetings im a anime bot created by Savage God!
 9- Weeb 💀
 10- Nsfw (18+)🍑 \`\`\`
  
-         *━━━━❰ Details ❱━━━━*
+*━━━━❰ Details ❱━━━━*
 
 *│- User: ${M.sender.username}*
 *│- Name: Cole*
 *│- Prefix: ${this.client.config.prefix}*
 *│- Owner: Savage God*
 
-          *━━━━❰ Bio ❱━━━━*
+*━━━━❰ Bio ❱━━━━*
               
 \`\`\`My name is Cole and I am I anime bot that was
 created by Savage God. Don't abuse me or there will be consequences.
